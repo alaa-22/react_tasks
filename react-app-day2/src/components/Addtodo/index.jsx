@@ -11,7 +11,7 @@ const handleSubmit = () => {
 
   return (
     <div className="card">
-      <h1> Add Post </h1>
+      <h1> Add Todo </h1>
       <Input value={title} setValue={setTitle} label="Title" />
       <Input value={desc} setValue={setdesc} label="description" />
       <button onClick={handleSubmit} className="btn btn-primary m-2">
